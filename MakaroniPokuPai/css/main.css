@@ -2,7 +2,6 @@ html {
 	font-size: 16px;
 }
 
-/*для каждого тега прописал font-size, для того чтобы increaseFontSize() менял текст и внутри этих тегов*/
 h1 {
 	font-size: 36px;
 }
@@ -216,7 +215,6 @@ a:hover {
 	width: 100%;
 	/* изменяем ширину на 100% */
 	max-width: 500px;
-	/* ограничиваем максимальную ширину */
 }
 
 #user-text-button {
@@ -236,17 +234,14 @@ a:hover {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	margin-left: 10px;
-	/* уменьшаем отступ слева и справа */
 	margin-right: 10px;
 }
 
 @media (min-width: 768px) {
 
-	/* добавляем медиа-запрос для установки ширины элементов на больших экранах */
 	#user-text {
 		width: 50%;
 		max-width: none;
-		/* убираем ограничение максимальной ширины */
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -262,7 +257,6 @@ a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 768px;
-		/* ограничиваем максимальную ширину контейнера */
 	}
 }
 
